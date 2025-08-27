@@ -13,13 +13,16 @@
 
 
 h2 {
+    margin-top: 20pxs;
     text-align: center;
     height: 20px;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     font-style: italic;
     font-size: 30px
+   
 }
+
 
 *{
     background-color: black;
@@ -47,6 +50,8 @@ nav ul li a {
     margin: 20px;
     background-color: white;
     color: black ;
+    border-radius: 20%;
+    
 
 }
 div{
@@ -66,3 +71,48 @@ footer{
     font-style: italic;
     font-size: 15px
 }
+
+
+
+
+.imglogo{
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.subtitulo{
+display: flex;
+text-align: center
+
+
+}
+
+
+.descripcion { 
+
+    flex: 1;
+    text-align: left;
+    margin-top: 60px;
+    margin-right: 50px;   
+
+}
+
+.cuartohermano{
+   width: 200px;
+    height: auto;
+    margin: 5px;
+    padding: 10px;
+   
+
+}
+
+
+.contenedorprincipal{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
